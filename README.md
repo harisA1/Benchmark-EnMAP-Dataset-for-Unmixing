@@ -25,7 +25,8 @@ The dataset consists of:
 
 The scene covers an agricultural region near **Lake Zazari in Western Macedonia, Greece**, and was acquired in **October 2023**.
 
----
+```python
+
 Example: Load the Data in Python
 --------------------------------
 import numpy as np
@@ -40,10 +41,13 @@ W = int(data["width"])
 X_image = X.reshape(H, W, -1)
 y_image = y.reshape(H, W)
 
+```
+
+
 Related Resources:
 ------------------
 To reproduce the ground truth mask using Sentinel-2 and the HISET method, see the companion repo:
-https://github.com/harisA1/sentinel-bare-soil-mask
+https://github.com/harisA1/Sentinel2-Soil-Classifier
 
 If you use this dataset in your work, please cite:
 
