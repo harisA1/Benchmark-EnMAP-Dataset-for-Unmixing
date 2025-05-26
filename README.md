@@ -26,6 +26,25 @@ The dataset consists of:
 The scene covers an agricultural region near **Lake Zazari in Western Macedonia, Greece**, and was acquired in **October 2023**.
 
 ---
+Example: Load the Data in Python
+--------------------------------
+import numpy as np
+
+data = np.load("benchmark_dataset.npz")
+X = data["image"]            # shape (N, 244)
+y = data["ground_truth"]     # shape (N,)
+H = int(data["height"])
+W = int(data["width"])
+
+# Optional reshape
+X_image = X.reshape(H, W, -1)
+y_image = y.reshape(H, W)
+
+Related Resources:
+------------------
+To reproduce the ground truth mask using Sentinel-2 and the HISET method, see the companion repo:
+https://github.com/harisA1/sentinel-bare-soil-mask
+
 If you use this dataset in your work, please cite:
 
 Ampas et al. Spectral Unmixing for Bare Soil Detection: A Step Toward Hyperspectral Soil Organic Carbon Estimation
