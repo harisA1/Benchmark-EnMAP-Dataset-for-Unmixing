@@ -1,5 +1,3 @@
-# enmap-unmixing-benchmark
-
 # Bare Soil Detection Benchmark from EnMAP Imagery
 
 This repository provides a benchmark dataset for evaluating bare soil detection methods on EnMAP hyperspectral imagery. The dataset includes preprocessed spectral data and corresponding ground truth class labels derived from Sentinel-2 and land cover products.
