@@ -28,6 +28,3 @@ The dataset consists of:
 The scene covers an agricultural region near **Lake Zazari in Western Macedonia, Greece**, and was acquired in **October 2023**.
 
 ---
-
-## 📂 Folder Structure
-
