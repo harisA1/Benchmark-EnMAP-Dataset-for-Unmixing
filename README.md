@@ -39,7 +39,7 @@ W = int(data["width"])
 
 # Optional reshape
 X_image = X.reshape(H, W, -1)
-y_image = y.reshape(H, W)
+y_image = y.reshape(H, W, -1)
 
 ```
 
