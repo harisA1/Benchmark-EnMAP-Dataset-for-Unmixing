@@ -26,3 +26,7 @@ The dataset consists of:
 The scene covers an agricultural region near **Lake Zazari in Western Macedonia, Greece**, and was acquired in **October 2023**.
 
 ---
+If you use this dataset in your work, please cite:
+
+Ampas et al. Spectral Unmixing for Bare Soil Detection: A Step Toward Hyperspectral Soil Organic Carbon Estimation
+Submitted to MIGARS 2025.
