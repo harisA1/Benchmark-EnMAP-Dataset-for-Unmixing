@@ -33,7 +33,7 @@ import numpy as np
 
 data = np.load("benchmark_dataset.npz")
 X = data["image"]            # shape (N, 244)
-y = data["ground_truth"]     # shape (N,)
+y = data["ground_truth"]     # shape (N,3)
 H = int(data["height"])
 W = int(data["width"])
 
