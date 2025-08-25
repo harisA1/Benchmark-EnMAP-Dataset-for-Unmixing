@@ -5,7 +5,7 @@ This repository provides a benchmark dataset for evaluating bare soil detection 
 📄 **Associated Paper**: _Spectral Unmixing for Bare Soil Detection: A Step Toward Hyperspectral Soil Organic Carbon Estimation_
 
 📦 **Dataset Download**:  
-[benchmark_dataset.npz (105 MB)]([https://zenodo.org/record/XXXXXXX/files/benchmark_dataset.npz](https://zenodo.org/records/15962350))  
+[benchmark_dataset.npz (105 MB)](https://zenodo.org/records/15962350)  
 *(Hosted on Zenodo)*
 
 ---
