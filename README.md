@@ -53,7 +53,7 @@ Citation:
 ---------
 If you use this dataset in your work, please cite:
 
-Ampas, H., Petridou, S., Karyotis, K., & Zalidis, G.
+Ampas, H., Karyotis, K., & Zalidis, G., Petridou, S.
 "Spectral Unmixing for Bare Soil Detection: A Step Toward Hyperspectral Soil Organic Carbon Estimation."
 Submitted to MIGARS 2025.
 
